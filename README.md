@@ -2,7 +2,10 @@
 
 using this can both detect x64dbgs detaching, it detects thread suspension, and it does some other stuff which will be displayed below.
 
-![Anti Suspend Demo](https://streamable.com/z8ulvr)
+## Demo
+https://github.com/byte2mov/Anti-Suspend/assets/146471523/e635efd9-061c-452a-be26-8e94940b72d1.mp4
+
+
 
 
 ## How it Works
