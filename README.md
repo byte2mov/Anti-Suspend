@@ -19,5 +19,5 @@ To integrate Anti-Suspend into your project, simply include the provided code sn
 Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/byte2mov/anti-Suspend.git
+git clone https://github.com/byte2mov/Anti-Suspend.git
 ```
