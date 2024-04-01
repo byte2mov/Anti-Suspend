@@ -7,7 +7,7 @@ public:
     HANDLE hThread; // thread handle we create.
     int count = 128; // amount of times we suspend
 
-    // class to store all out information.
+    // class to store all our information.
 }; static c_globals* globals = new c_globals();
 
 int main() {
