@@ -2,6 +2,8 @@
 
 Anti-Suspend is a tool designed to detect x64dbg detaching, thread suspension, and perform other related functions. 
 
+This project was inspired by [this article](https://secret.club/2021/01/04/thread-stuff.html).
+
 ## How it Works
 
 The tool creates a dummy thread that triggers when suspended or when the file is suspended. It utilizes `DebugActiveProcessStop` to stop debugging of a process previously attached to a debugger or utilized by a program for suspension. After that, it pushes the suspension limits to max. then at the end, it checks if the thread can be suspended. If the return does not equal `(DWORD)-1`, it shows either suspension or previous attachment of a debugger.
